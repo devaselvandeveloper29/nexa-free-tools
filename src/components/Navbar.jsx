@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/logo.png"; // ✅ Import பண்ணு
+import logo from "../assets/logo.png"; 
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
