@@ -24,6 +24,7 @@ export default function Navbar() {
             className="h-20 w-auto object-contain border-2 border-white rounded-md"
           />
         </Link>
+        <h1 className="text-white text-xl font-bold">DEVA</h1>
         <div className="hidden md:flex items-center gap-6">
           {links.map((l) => (
             <Link
